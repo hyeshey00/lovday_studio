@@ -85,6 +85,8 @@
                 <!-- Desktop Menu -->
                 <nav class="hidden md:flex space-x-8">
                     <a href="#about" class="text-gray-600 hover:text-accent-pink font-medium transition-colors">About</a>
+                    <a href="#customer" class="text-gray-600 hover:text-accent-pink font-medium transition-colors">Reviews</a>
+                    <a href="#video" class="text-gray-600 hover:text-accent-pink font-medium transition-colors">Video</a>
                     <a href="#products" class="text-gray-600 hover:text-accent-pink font-medium transition-colors">Products</a>
                     <a href="#services" class="text-gray-600 hover:text-accent-pink font-medium transition-colors">Services</a>
                     <a href="#booking" class="text-gray-600 hover:text-accent-pink font-medium transition-colors">Booking</a>
@@ -103,6 +105,8 @@
         <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-100 shadow-lg absolute w-full">
             <div class="px-4 pt-2 pb-4 space-y-1">
                 <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-accent-pink hover:bg-pink-50 rounded-md">About</a>
+                <a href="#customer" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-accent-pink hover:bg-pink-50 rounded-md">Reviews</a>
+                <a href="#video" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-accent-pink hover:bg-pink-50 rounded-md">Video</a>
                 <a href="#products" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-accent-pink hover:bg-pink-50 rounded-md">Products</a>
                 <a href="#services" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-accent-pink hover:bg-pink-50 rounded-md">Services</a>
                 <a href="#booking" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-accent-pink hover:bg-pink-50 rounded-md">Booking</a>
@@ -112,10 +116,10 @@
 
     <!-- 2. Hero Section -->
     <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden pt-20">
-        <!-- Background Image with Overlay (이미지 교체 완료) -->
-        <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1581337204873-ef36aa186caa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="공예 체험하며 웃는 20대 커플" class="w-full h-full object-cover object-center" />
-            <div class="absolute inset-0 bg-black/50"></div>
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0 bg-pink-50">
+            <img src="로브데이_혜인_프로필용.png" alt="로브데이 캐릭터 로고" class="w-full h-full object-contain object-center" />
+            <div class="absolute inset-0 bg-black/40"></div>
         </div>
         
         <!-- Content -->
@@ -144,8 +148,8 @@
                     <div class="w-20 h-20 bg-pink-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-accent-pink transition-colors duration-300">
                         <i class="fa-solid fa-palette text-3xl text-accent-pink group-hover:text-white transition-colors duration-300"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">다양한 공예 커리큘럼</h3>
-                    <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 group-hover:text-purple-500 transition-colors duration-300">다양한 공예 커리큘럼</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base group-hover:text-purple-400 transition-colors duration-300">
                         제스모나이트, 레진아트, 모루인형 등 트렌디하고 다채로운 클래스를 경험해보세요.
                     </p>
                 </div>
@@ -154,8 +158,8 @@
                     <div class="w-20 h-20 bg-pink-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-accent-pink transition-colors duration-300">
                         <i class="fa-solid fa-leaf text-3xl text-accent-pink group-hover:text-white transition-colors duration-300"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">친환경 소재 사용</h3>
-                    <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 group-hover:text-purple-500 transition-colors duration-300">친환경 소재 사용</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base group-hover:text-purple-400 transition-colors duration-300">
                         인체에 무해한 친환경 인증 소재 제스모나이트로 안전하게 나만의 오브제를 만듭니다.
                     </p>
                 </div>
@@ -164,10 +168,115 @@
                     <div class="w-20 h-20 bg-pink-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-accent-pink transition-colors duration-300">
                         <i class="fa-solid fa-wand-magic-sparkles text-3xl text-accent-pink group-hover:text-white transition-colors duration-300"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">커스텀 가능</h3>
-                    <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 group-hover:text-purple-500 transition-colors duration-300">커스텀 가능</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm md:text-base group-hover:text-purple-400 transition-colors duration-300">
                         색상, 디자인, 장식까지 오롯이 나만의 취향을 담은 세상에 하나뿐인 오브제 제작이 가능합니다.
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3.5 Customer Reviews -->
+    <section id="customer" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Customer Reviews</h2>
+                <div class="w-16 h-1 bg-accent-pink mx-auto rounded-full mb-6"></div>
+                <p class="text-gray-600 text-lg">로브데이의 <span class="font-bold text-accent-pink">개인별 맞춤 피팅 서비스</span>를 경험하신 고객님들의 생생한 후기입니다.</p>
+            </div>
+
+            <!-- Accordion Container -->
+            <div class="space-y-4" id="review-accordion">
+                <!-- Review 1: 40대 여성 -->
+                <div class="border border-pink-100 rounded-2xl overflow-hidden bg-white shadow-sm transition-all duration-300">
+                    <button class="accordion-btn w-full px-6 py-5 flex justify-between items-center text-left hover:bg-soft-yellow transition-colors focus:outline-none" aria-expanded="false">
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 rounded-full overflow-hidden flex-shrink-0 border-2 border-pink-100">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="40대 여성 고객" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 text-base sm:text-lg">"우리 집에 딱 맞는 완벽한 맞춤 피팅"</h4>
+                                <span class="text-sm font-medium text-gray-500">40대, 이ㅇㅇ 고객님</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down text-accent-pink transition-transform duration-300 transform text-xl"></i>
+                    </button>
+                    <div class="accordion-content hidden px-6 pb-6 pt-2 bg-soft-yellow/30 border-t border-pink-50">
+                        <div class="flex justify-start text-accent-pink mb-3 text-sm mt-2">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-sm sm:text-base">"나만의 취향을 100% 반영해 주는 맞춤 피팅 서비스 덕분에 거실 분위기에 찰떡같이 어울리는 오브제를 완성했어요. 디테일한 상담부터 세심한 마무리까지 모든 과정이 힐링이었습니다!"</p>
+                    </div>
+                </div>
+
+                <!-- Review 2: 10대 여성 -->
+                <div class="border border-pink-100 rounded-2xl overflow-hidden bg-white shadow-sm transition-all duration-300">
+                    <button class="accordion-btn w-full px-6 py-5 flex justify-between items-center text-left hover:bg-soft-purple transition-colors focus:outline-none" aria-expanded="false">
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 rounded-full overflow-hidden flex-shrink-0 border-2 border-pink-100">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="10대 여성 고객" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 text-base sm:text-lg">"제 감성에 맞춘 1:1 커스텀!"</h4>
+                                <span class="text-sm font-medium text-gray-500">10대, 김ㅇㅇ 고객님</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down text-accent-pink transition-transform duration-300 transform text-xl"></i>
+                    </button>
+                    <div class="accordion-content hidden px-6 pb-6 pt-2 bg-soft-purple/30 border-t border-pink-50">
+                        <div class="flex justify-start text-accent-pink mb-3 text-sm mt-2">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-sm sm:text-base">"제 방 분위기에 맞게 하나부터 열까지 다 맞춰주는 개인별 맞춤 피팅 서비스 진짜 최고예요! 완성된 작품을 들고 예쁘게 웃으며 인생샷도 건지고, 친구들에게도 엄청 자랑했답니다."</p>
+                    </div>
+                </div>
+
+                <!-- Review 3: 9살 어린이 -->
+                <div class="border border-pink-100 rounded-2xl overflow-hidden bg-white shadow-sm transition-all duration-300">
+                    <button class="accordion-btn w-full px-6 py-5 flex justify-between items-center text-left hover:bg-pink-50 transition-colors focus:outline-none" aria-expanded="false">
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 rounded-full overflow-hidden flex-shrink-0 border-2 border-pink-100">
+                                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="9살 어린이 고객" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 text-base sm:text-lg">"내 마음에 쏙 드는 나만의 토끼!"</h4>
+                                <span class="text-sm font-medium text-gray-500">9살, 최ㅇㅇ 어린이</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down text-accent-pink transition-transform duration-300 transform text-xl"></i>
+                    </button>
+                    <div class="accordion-content hidden px-6 pb-6 pt-2 bg-pink-50 border-t border-pink-100">
+                        <div class="flex justify-start text-accent-pink mb-3 text-sm mt-2">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-sm sm:text-base">"엄마랑 같이 와서 제가 제일 좋아하는 색으로 모루인형을 만들었어요! 선생님이 제 유치원 가방에 딱 맞게 길이도 예쁘게 피팅해주셔서 너무 좋아요. 매일매일 메고 다닐 거예요!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3.6 Video Section (제스모나이트 오브제 제작방법) -->
+    <section id="video" class="py-24 bg-soft-yellow">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">제스모나이트 오브제 제작방법</h2>
+                <div class="w-16 h-1 bg-accent-pink mx-auto rounded-full mb-6"></div>
+                <p class="text-gray-600 text-lg">로브데이만의 특별한 제작 과정을 영상으로 확인해보세요.</p>
+            </div>
+
+            <!-- Video Embed Container -->
+            <div class="bg-white p-3 md:p-5 rounded-[2rem] shadow-sm border border-pink-100 mx-auto max-w-2xl transform transition-transform hover:scale-[1.02] duration-300">
+                <div style="padding:75% 0 0 0;position:relative;" class="rounded-2xl overflow-hidden bg-gray-100">
+                    <iframe 
+                        src="https://player.vimeo.com/video/1187225227?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" 
+                        frameborder="0" 
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                        title="레진_아트_영상_제작_및_탈형">
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -488,6 +597,7 @@
     </footer>
 
     <!-- JavaScript -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
     <script>
         // Gemini API Setting
         const apiKey = "";
@@ -589,6 +699,37 @@
                             item.classList.remove('active');
                         }
                     });
+                });
+            });
+
+            // --- ✨ Customer Review Accordion UI ---
+            const accordionBtns = document.querySelectorAll('.accordion-btn');
+
+            accordionBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('.fa-chevron-down');
+                    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+                    // 열려있는 다른 아코디언 닫기 (하나씩만 열리게 설정)
+                    accordionBtns.forEach(otherBtn => {
+                        if (otherBtn !== this) {
+                            otherBtn.setAttribute('aria-expanded', 'false');
+                            otherBtn.nextElementSibling.classList.add('hidden');
+                            otherBtn.querySelector('.fa-chevron-down').classList.remove('rotate-180');
+                        }
+                    });
+
+                    // 현재 아코디언 열기/닫기 토글
+                    if (isExpanded) {
+                        this.setAttribute('aria-expanded', 'false');
+                        content.classList.add('hidden');
+                        icon.classList.remove('rotate-180');
+                    } else {
+                        this.setAttribute('aria-expanded', 'true');
+                        content.classList.remove('hidden');
+                        icon.classList.add('rotate-180');
+                    }
                 });
             });
 
